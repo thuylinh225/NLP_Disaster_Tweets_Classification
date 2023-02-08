@@ -8,8 +8,8 @@ on using Natural Language Processing (NLP) and classification models to distingu
 To do this, first, we will inspect, visualize, clean and vectorize the data then split train data into train_df (85%) and valid_df (15%) and train three models:  
 
 (1) Long Short Term Memory (LSTM)  
-(2) Bidirectional Long Short Term Memory (Bi-LSTM) 
-(3) Gated Recurrent Unit (GRU)
+(2) Bidirectional Long Short Term Memory (Bi-LSTM)    
+(3) Gated Recurrent Unit (GRU).  
 
 Then, I will compare these three deep learning models by validation accuracy score and tune hyperparmeter (dropout) to get the best model and use this best model for predicting test data and print out the submission file.
 
